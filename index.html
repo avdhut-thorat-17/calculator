@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <button class="button" onclick="clearDisplay()">C</button>
+        <button class="button" onclick="appendSymbol('/')">/</button>
+        <button class="button" onclick="appendSymbol('*')">*</button>
+        <button class="button" onclick="appendSymbol('-')">-</button>
+        <button class="button" onclick="appendSymbol('+')">+</button>
+        <button class="button" onclick="appendSymbol('9')">9</button>
+        <button class="button" onclick="appendSymbol('8')">8</button>
+        <button class="button" onclick="appendSymbol('7')">7</button>
+        <button class="button" onclick="appendSymbol('6')">6</button>
+        <button class="button" onclick="appendSymbol('5')">5</button>
+        <button class="button" onclick="appendSymbol('4')">4</button>
+        <button class="button" onclick="appendSymbol('3')">3</button>
+        <button class="button" onclick="appendSymbol('2')">2</button>
+        <button class="button" onclick="appendSymbol('1')">1</button>
+        <button class="button" onclick="appendSymbol('0')">0</button>
+        <button class="button" onclick="appendSymbol('.')">.</button>
+        <button class="button" onclick="calculate()">=</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
